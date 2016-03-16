@@ -10,7 +10,7 @@ exports.info = {
 // information regarding the bot's login information
 // it can be left blank
 exports.bot = {
-    name: "RunBot",
+    name: "RunBot2",
     pass: "memesarememeful",
 };
 
