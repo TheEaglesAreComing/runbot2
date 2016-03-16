@@ -10,21 +10,6 @@ exports.commands = {
         if (!this.can("say")) return false;
         return this.send(removeCommand(target));
     },
-      runeasy: function(target,room,user) {
-        if (!this.can("runeasy")) return false;
-        return this.send("runeasy is not a command yet xaa");
-    },
-    runhard: function(target,room,user) {
-        if (!this.can("runhard")) return false;
-        return this.send("runhard is not a command yet xaa");
-    },
-    news: function(target,room,user) {
-        if (!this.can("news")) return false;
-        return this.send("news is not a command yet xaa");
-    },
-    funfact: function(target,room,user) {
-        if (!this.can("funfact")) return false;
-        return this.send("funfact is not a command yet xaa")
     //settings
     addchar: function(target, room, user) {
         if (!this.can("set") || !room) return false;
